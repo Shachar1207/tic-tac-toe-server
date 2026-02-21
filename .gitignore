@@ -1,0 +1,9 @@
+# This file tells Git which files to IGNORE and never upload to GitHub.
+
+# The .env file contains passwords - never upload this!
+.env
+
+# node_modules is a folder created when you run "npm install".
+# It can be huge (thousands of files) and doesn't need to be on GitHub
+# because anyone who clones the repo can recreate it with "npm install".
+node_modules/
