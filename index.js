@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const Redis = require('ioredis');
 const cors = require('cors');
